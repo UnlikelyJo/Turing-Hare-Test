@@ -99,7 +99,7 @@ def askAI(statement, temperature=0.0):
     
     return parsed_response
 
-def HareTest(temperature=0.5):
+def HareTest(temperature=0.1):
 
     # Start Test
     answers = defaultdict(int,{ k:0 for k in ('A','B','') })
